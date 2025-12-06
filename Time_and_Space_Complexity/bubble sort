@@ -1,0 +1,10 @@
+worst and avg case time complexity : O(n * n)  //when array is reverse sorted
+
+best case time complexity : O(n) // when array is already sorted.
+
+auxiliary space : o(1)
+
+Boundary cases : bubble sort takes minimum time (Order of n) when elem are already sorted.
+
+sorting in place : yes
+stable : yes

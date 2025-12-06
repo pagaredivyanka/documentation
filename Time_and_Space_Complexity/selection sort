@@ -1,0 +1,15 @@
+worst complexity : n ^ 2
+
+avg complexity : n ^ 2
+
+best complexity : n ^ 2
+
+space complexity : 1
+
+method : selection
+
+stable : No
+
+IMP -->
+    The good thing about selection sort is it never makes more than O(n) swaps and
+    can be useful when memory write is a costly operation.

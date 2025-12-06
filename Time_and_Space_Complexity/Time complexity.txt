@@ -1,0 +1,34 @@
+binary search is better than linear search
+
+better for large dataset ->
+O(1) < O(log N) < O(N)
+
+VVI ->
+
+1.  Always look for worst case complexity.
+2.  always look at complexity for Large/ infinite data.
+3.  y = x , y = 2x, y = 4x
+    1.  Even though value of actual time is different they are all growing linearly.
+    2.  We don't care about actual time.
+    3.  that's why we ignore all constants.
+4.  O(N^3 + log N)
+    1.  from point no. 2
+    ->   1 mil => ((1 mil)^3 + log(1 mil))
+               => ((1 mil)^3 + 6 secs)  // 6 secs is very small hence it will be ignored
+
+
+               *** ALWAYS IGNORE LESS DOMINATING TERMS
+
+Ex. O(3N^3 + 4N^2 + 5N + 6)
+-> (N^3 + N^2 + N) = O(N^3)
+
+O(1) < O(log(N)) < O(N) < O(N log(N)) < O(2^N)   // like this complexity increases
+
+Definition -> O(N^3) -> Upper bound
+
+Math -> f(N) = O(g(N))
+
+formula =    lin          f(N)/g(N) < infinity
+          N -> infinity
+
+

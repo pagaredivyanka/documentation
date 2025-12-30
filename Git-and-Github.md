@@ -139,5 +139,45 @@ Adding a new change-main
 >>>>>>>>>main (Incoming Change)
 
 ```
-  
+- git diff main    // shows differences in branches
+- git checkout main
+- git checkout feature   
 
+- git branch
+
+  feature
+* main
+
+- git merge feature   // if merge conflict is there
+
+(it gives --> 
+CONFLICT (content) : Merge conflict in app.js
+Automatic merge failed; fix conflict and then commit the result.)
+
+// we have to change the file manually what feature we want to keep and what we want to remove. now file is modified and we have to add it 
+
+- git add .
+- git status
+- git commit -m "merge with feature" // it shows merge with feature
+- git push origin main
+ 
+
+# Fixing Mistakes
+
+```
+Case 1 : Staged changes
+    -> git reset <-file name->     // remove last change from perticular file
+    -> git reset      // if we want to remove last change we have made
+
+Case 2 : commited changes (for one commit)
+    -> git reset HEAD-1   // HEAD points to last commit. when we use this command it removes last commit where HEAD is currently pointing and now HEAD is pointing to its privious commit. (basically used to undo commit)
+
+Case 3 : commited changes (for many commits)
+    -> git reset <-commit hash->
+    -> git reset --hard <-commit hash->
+
+```
+
+- git log  // gives information about all commits in reverse chronological order.
+- git reset HASH // when we use hash, then all the changes we have made after that commit become unstaged.
+- git reset --hard HASH // it removes all changes forcefully from the the commits and HEAD goes to previous HASH.

@@ -64,8 +64,15 @@ code changes -> "add" (stage changes) -> "commit" (commit changes) -> push -> PR
                     ----> 3 ----> 4 ---
 
 ```
-after merging into the main branch we can delete the bugfix or feature branch 
+- after merging into the main branch we can delete the bugfix or feature branch 
  
+# Branch Commands
+
+- git branch                       (to check branch)
+- git branch -M main               (to rename branch)
+- git checkout <-branch name->          (to navigate)
+- git checkout -b <-new branch name->   (to create new branch)
+- git branch -d <-branch name->         (to delete branch)
 
 
 

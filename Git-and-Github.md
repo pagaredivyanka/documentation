@@ -22,7 +22,7 @@
 - git push origin main     (used to push code to main branch)
 
 
-# after making changes in any file 
+## after making changes in any file 
 (use following commands to commit)
 
 - git status
@@ -193,6 +193,7 @@ Case 3 : commited changes (for many commits)
 
 
 -- Created by Divyanka
+
 
 
 

@@ -32,7 +32,7 @@
 
 - git push -u origin main  (once we use this command to comit then afterwords we don't have to use complete command furthur instead we can use only (git push) for that we have to use "-u" flag atleast once)
 
-# if we don't have any untracked files while checking status 
+## if we don't have any untracked files while checking status 
 (that time we can add and commit in one command)
 
 - git commit -am "added new change"
@@ -94,7 +94,7 @@ if we want to switch to branch main
   main
 ```
 
-# after changing in feature branch 
+## after changing in feature branch 
 ```
 - if we try to push to the code it will give you --->
 fatal : The current brach feature has no upstream branch.
@@ -126,7 +126,7 @@ Fetch Changes from remote repository to local machine
 - git pull origin main    // used to fetch and download content from a remote repo and immidiately update the local repo to match that content.
 
 # Merge Conflicts
-An event that takes place when Git is unable to automatically resolve       differences in code between two commits.
+An event that takes place when Git is unable to resolve differences in code between two commits automatically.
     
 ```
 Ex.
@@ -153,7 +153,7 @@ Adding a new change-main
 CONFLICT (content) : Merge conflict in app.js
 Automatic merge failed; fix conflict and then commit the result.)
 
-// we have to change the file manually what feature we want to keep and what we want to remove. now file is modified and we have to add it 
+// we have to manually change the file which feature we want to keep and which we want to remove. now the file is modified and we have to add it 
 
 - git add .
 - git status
@@ -192,7 +192,8 @@ Case 3 : commited changes (for many commits)
 
 
 
--- Created by Divyanka
+                                                                                                                          -- Created by Divyanka
+
 
 
 

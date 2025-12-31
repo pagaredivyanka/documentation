@@ -5,9 +5,8 @@
 
 - git config --list //enlist credentials
   
-# Git Initilization
-## init - used to create a new git repo 
-- git init  
+# Git Initilization 
+- git init  // used to create a new git repo
   
 # Git Commands 
 - pwd // current directry on local machine
@@ -194,5 +193,6 @@ Case 3 : commited changes (for many commits)
 
 
 -- Created by Divyanka
+
 
 
